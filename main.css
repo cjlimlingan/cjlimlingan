@@ -1,0 +1,57 @@
+body {
+    font-family: Montserrat;
+}
+
+h1 {
+    font-weight:700;
+    font-size:75px;
+    text-transform: uppercase;
+}
+
+header,
+footer,
+section {
+    text-align:center;
+}
+
+nav {
+    vertical-align:middle;
+    padding:10px;
+}
+
+li {
+   list-style-type: none; 
+   text-align:left;
+}
+
+nav li {
+    display:inline;
+    font-weight:600;
+    width:25%;
+    padding-inline:20px;
+}
+
+.codingStack,
+.design,
+.projMgmt {
+    display:inline-block;
+    padding: 10px;
+    width:12%;
+    vertical-align:top;
+}
+
+.codingStack li,
+.design li,
+.projMgmt li {
+    padding-bottom:10px;
+}
+
+footer h4 
+{
+    display: inline-block;
+    padding-right: 120px;
+}
+
+footer p {
+    display: inline-block;
+}

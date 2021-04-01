@@ -33,9 +33,9 @@ Started 1st of April, 2021. Ongoing until who knows when.
 I wanted to have a more meaningful HTML/CSS practice. 
 
 ## To-do list
-* [] Create index.html, main.css, and README.md files.
+* [x] Create index.html, main.css, and README.md files.
 * [] Create digital version of wireframe for main page.
-* [] Establish html structure.
+* [x] Establish html structure.
 * [] Incorporate initial design using css. 
-* [] Incorporate git version tracking.
+* [x] Incorporate git version tracking.
 * [] Deploy to GitHub Pages. 
