@@ -27,7 +27,8 @@ h1 {
 }
 
 h2 {
-    margin:8px;
+    margin-bottom: 30px;
+    font-size:32px;
 }
 
 header,
@@ -47,6 +48,7 @@ nav {
 }
 
 a {
+    font-size: 21px;
     text-decoration: none;
     color:black;
 }
@@ -74,22 +76,32 @@ nav li {
 .design,
 .projMgmt {
     display:inline-block;
-    padding: 10px;
+    padding-inline: 10px;
     margin-inline: 2%;
     width:15%;
     vertical-align:top;
 }
 
-.skills h3 {
-   margin:10px;
+.skills h3,
+.projects h3 {
+    font-size: 21px;
+    margin:10px;
+}
+
+.skills p,
+.projects p {
+    font-size: 19px;
 }
 
 .skills ul {
-    padding-left:18px;
+    padding-left:10px;
+    margin-left:10px;
+    border-left: 2px solid darkblue;
 }
 
 .skills li {
     padding-bottom:10px;
+    font-size: 19px;
 }
 
 .softSkills p {
@@ -101,11 +113,15 @@ nav li {
     border-radius: 10px;
 }
 
+.projects p {
+    margin:10px;
+}
+
 .app1,
 .app2,
 .app3 {
     display:inline-block;
-    padding: 10px;
+    padding-inline: 10px;
     width:25%;
     vertical-align:top;
 }
@@ -113,16 +129,21 @@ nav li {
 footer {
     background-color:rgb(215, 239, 255);
     color:black;
+    padding:20px;
 }
 
 footer h2 
 {
+    vertical-align: middle;
+    margin:auto;
     display: inline-block;
-    font-size:15px;
-    padding-right: 120px;
+    font-size:18px;
+    padding-right: 40%;
 }
 
 footer p {
+    vertical-align: middle;
     display: inline-block;
-    font-size:15px;
+    font-size:18px;
+    margin:auto;
 }
