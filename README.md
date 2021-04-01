@@ -38,4 +38,4 @@ I wanted to have a more meaningful HTML/CSS practice.
 * [x] Establish html structure.
 * [x] Incorporate initial design using css. 
 * [x] Incorporate git version tracking.
-* [] Deploy to GitHub Pages. 
+* [x] Deploy to GitHub Pages. 
