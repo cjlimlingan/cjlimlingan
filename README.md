@@ -36,6 +36,6 @@ I wanted to have a more meaningful HTML/CSS practice.
 * [x] Create index.html, main.css, and README.md files.
 * [] Create digital version of wireframe for main page.
 * [x] Establish html structure.
-* [] Incorporate initial design using css. 
+* [x] Incorporate initial design using css. 
 * [x] Incorporate git version tracking.
 * [] Deploy to GitHub Pages. 

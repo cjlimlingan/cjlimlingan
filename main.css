@@ -5,7 +5,29 @@ body {
 h1 {
     font-weight:700;
     font-size:75px;
+    margin-bottom:0;
+    padding-bottom:0;
     text-transform: uppercase;
+}
+
+.banner {
+    padding:60px;
+    background-image: url('resources/banner-bg.jpg');
+    background-size: cover;
+    background-position: center left;
+    color:white;
+}
+
+.banner p {
+    font-weight:600;
+    font-size:20px;
+    margin-top:0;
+    padding-top:0;
+    color:black;
+}
+
+h2 {
+    margin:8px;
 }
 
 header,
@@ -14,11 +36,24 @@ section {
     text-align:center;
 }
 
+section {
+    padding-top:20px;
+    padding-bottom:40px;
+}
+
 nav {
     vertical-align:middle;
     padding:10px;
 }
 
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color:mediumblue;
+}
 li {
    list-style-type: none; 
    text-align:left;
@@ -31,27 +66,63 @@ nav li {
     padding-inline:20px;
 }
 
+.skills {
+    background-color:rgb(215, 239, 255);
+}
+
 .codingStack,
 .design,
 .projMgmt {
     display:inline-block;
     padding: 10px;
-    width:12%;
+    margin-inline: 2%;
+    width:15%;
     vertical-align:top;
 }
 
-.codingStack li,
-.design li,
-.projMgmt li {
+.skills h3 {
+   margin:10px;
+}
+
+.skills ul {
+    padding-left:18px;
+}
+
+.skills li {
     padding-bottom:10px;
 }
 
-footer h4 
+.softSkills p {
+    margin:3px;
+}
+
+.projects img {
+    width:90%;
+    border-radius: 10px;
+}
+
+.app1,
+.app2,
+.app3 {
+    display:inline-block;
+    padding: 10px;
+    width:25%;
+    vertical-align:top;
+}
+
+footer {
+    background-color:rgb(215, 239, 255);
+    color:black;
+}
+
+footer h2 
 {
     display: inline-block;
+    font-size:15px;
     padding-right: 120px;
 }
 
 footer p {
     display: inline-block;
+    font-size:15px;
 }
