@@ -12,18 +12,19 @@ h1 {
 
 .banner {
     padding:60px;
+    background-color: rgba(0,0,0,0.25);
     background-image: url('resources/banner-bg.jpg');
+    background-blend-mode: multiply;
     background-size: cover;
     background-position: center left;
     color:white;
 }
 
 .banner p {
-    font-weight:600;
+    font-weight:500;
     font-size:20px;
     margin-top:0;
     padding-top:0;
-    color:black;
 }
 
 h2 {
@@ -77,7 +78,7 @@ nav li {
 .projMgmt {
     display:inline-block;
     padding-inline: 10px;
-    margin-inline: 2%;
+    margin-inline: 4%;
     width:15%;
     vertical-align:top;
 }
@@ -138,7 +139,7 @@ footer h2
     margin:auto;
     display: inline-block;
     font-size:18px;
-    padding-right: 40%;
+    padding-right: 50%;
 }
 
 footer p {
@@ -146,4 +147,59 @@ footer p {
     display: inline-block;
     font-size:18px;
     margin:auto;
+}
+
+@media only screen and (max-width: 850px)  {
+    nav li {
+        display:block;
+        text-align: center;
+        font-weight:600;
+        width:80%;
+        padding:10px;
+    }
+
+    .codingStack,
+    .design,
+    .projMgmt {
+        display:block;
+        padding: 10px;
+        width:60%;
+        text-align: center;
+        margin:auto;
+    }
+
+    .skills ul {
+        border-left: none;
+        margin:auto;
+    }
+
+    .skills li {
+        text-align:center;
+    }
+
+    .app1,
+    .app2,
+    .app3 {
+        display:block;
+        padding: 10px;
+        width:60%;
+        text-align: center;
+        margin:auto;
+    }
+
+    footer h2 {
+        margin:auto;
+        display: block;
+        font-size:18px;
+        text-align:center;
+        padding:10px;
+    }
+
+    footer p {
+        display: block;
+        font-size:18px;
+        margin:auto;
+        text-align:center;
+        padding:10px;
+    }
 }
