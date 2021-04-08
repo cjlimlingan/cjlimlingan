@@ -34,8 +34,15 @@ I wanted to have a more meaningful HTML/CSS practice.
 
 ## To-do list
 * [x] Create index.html, main.css, and README.md files.
-* [] Create digital version of wireframe for main page.
+* [ ] Create digital version of wireframe for main page.
 * [x] Establish html structure.
 * [x] Incorporate initial design using css. 
 * [x] Incorporate git version tracking.
 * [x] Deploy to GitHub Pages. 
+* [x] Incorporate responsive CSS to different screen sizes.
+* [x] Add buttons for the projects section.
+* [ ] Add a quick 'contact me' form section at the bottom.
+* [ ] Add tech stack logos in skills section.
+* [ ] Improve color scheme using color theory.
+* [ ] Create Resume page.
+
