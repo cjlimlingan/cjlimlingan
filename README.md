@@ -41,8 +41,8 @@ I wanted to have a more meaningful HTML/CSS practice.
 * [x] Deploy to GitHub Pages. 
 * [x] Incorporate responsive CSS to different screen sizes.
 * [x] Add buttons for the projects section.
-* [ ] Add a quick 'contact me' form section at the bottom.
+* [x] Add a quick 'contact me' form section at the bottom.
 * [ ] Add tech stack logos in skills section.
-* [ ] Improve color scheme using color theory.
-* [ ] Create Resume page.
+* [x] Improve color scheme using color theory (pending).
+* [x] Create Resume page.
 
